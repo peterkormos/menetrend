@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+<property category="debug.0" name="RemoteAttachArgumentNames.1" value="hostname"/>
+<property category="debug.0" name="RemoteAttachArgumentNames.2" value="port"/>
+<property category="debug.0" name="RemoteAttachArgumentValues.1" value="localhost"/>
+<property category="debug.0" name="RemoteAttachArgumentValues.2" value="3999"/>
+<property category="debug.0" name="RemoteAttachTransport" value="dt_socket"/>
+<property category="debug.0" name="RemoteLaunchTransport" value="dt_socket"/>
+<property category="generalFormatting" name="baseCodeStyle" value="java/Java Standard.codestyle"/>
+<property category="generalFormatting2" name="overrideBasicFormatting" value="1"/>
+<property category="generalFormatting2" name="useTabChar" value="1"/>
+<property category="javaFormatting" name="alignMultilineAssign" value="1"/>
+<property category="javaFormatting" name="alwaysClasses" value="1"/>
+<property category="javaFormatting" name="arrayInitDataOnNewLine" value="0"/>
+<property category="javaFormatting" name="classBraceNextLine" value="1"/>
+<property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+<property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+<property category="javaFormatting" name="methodBraceNextLine" value="1"/>
+<property category="javaFormatting" name="otherBraceNextLine" value="1"/>
+<property category="javaFormatting" name="packagePrefixGroups" value="java;javax;BLANK_LINE;java.awt;javax.swing;BLANK_LINE;org;(*)"/>
+<property category="javaFormatting" name="preserveLineBreaks" value="0"/>
+<property category="javaFormatting" name="spaceAfterTypecast" value="0"/>
+<property category="javaFormatting" name="spaceBeforeLBrace" value="0"/>
+<property category="javaFormatting" name="spaceBeforeLparen" value="0"/>
+<property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+<property category="optimize.0" name="OptimizableType" value="com.borland.jbuilder.optimize.IntroOptimizeitProfiler"/>
+<property category="runtime" name="DefaultConfiguration" value="-1"/>
+<property category="runtime.0" name="BuildTargetOnRun" value="&lt;None&gt;"/>
+<property category="runtime.0" name="ConfigurationName" value="MenetrendMain"/>
+<property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.micro.MidletRunner"/>
+<property category="runtime.0" name="custom.init_required" value="0"/>
+<property category="runtime.0" name="enable.tcpmonitor" value="0"/>
+<property category="runtime.0" name="enable.wsimonitor" value="0"/>
+<property category="runtime.0" name="midlet.class" value="menetrend.MenetrendMain"/>
+<property category="runtime.0" name="midlet.emulatordevice" value="DefaultColorPhone"/>
+<property category="runtime.0" name="tcpmonitor.listenport" value=""/>
+<property category="runtime.0" name="tcpmonitor.targethost" value=""/>
+<property category="runtime.0" name="tcpmonitor.targetport" value=""/>
+<property category="runtime.0" name="wsimonitor.listenport" value=""/>
+<property category="runtime.0" name="wsimonitor.logfile" value=""/>
+<property category="runtime.0" name="wsimonitor.targethost" value=""/>
+<property category="runtime.0" name="wsimonitor.targetport" value=""/>
+<property category="serverservices" name="disabled.services" value="jdatastore"/>
+<property category="serverservices" name="single.server.name" value=""/>
+<property category="sys" name="AuthorLabel" value="@author"/>
+<property category="sys" name="BackupPath" value="bak"/>
+<property category="sys" name="CheckStable" value="1"/>
+<property category="sys" name="Company" value=""/>
+<property category="sys" name="CompanyLabel" value="Company:"/>
+<property category="sys" name="Copyright" value="Copyright (c) 2006"/>
+<property category="sys" name="CopyrightLabel" value="Copyright:"/>
+<property category="sys" name="DefaultPath" value="src"/>
+<property category="sys" name="Description" value=""/>
+<property category="sys" name="DescriptionLabel" value="Description:"/>
+<property category="sys" name="DocPath" value="doc"/>
+<property category="sys" name="ExcludeClassEnabled" value="0"/>
+<property category="sys" name="IncludeTestPath" value="1"/>
+<property category="sys" name="InstanceVisibility" value="2"/>
+<property category="sys" name="JDK" value="J2ME Wireless Toolkit 2.2"/>
+<property category="sys" name="JvmVersion" value="1.4"/>
+<property category="sys" name="LastTag" value="0"/>
+<property category="sys" name="Libraries" value=""/>
+<property category="sys" name="MakeStable" value="0"/>
+<property category="sys" name="OutPath" value="classes"/>
+<property category="sys" name="SourcePath" value="src;test"/>
+<property category="sys" name="SourceVersion" value="1.4"/>
+<property category="sys" name="TestPath" value="test"/>
+<property category="sys" name="Title" value=""/>
+<property category="sys" name="TitleLabel" value="Title:"/>
+<property category="sys" name="Version" value="1.0"/>
+<property category="sys" name="VersionLabel" value="@version"/>
+<property category="sys" name="WorkingDirectory" value="."/>
+<node name="Menetrend suite" type="MicroArchive">
+<property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.micro.archive.MidletArchiver"/>
+<property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+<property category="archiving" name="ignoreClasses.1" value="menetrend.MenetrendMain"/>
+<property category="archiving" name="miscTargetPath.1" value="menetrend.jad"/>
+<property category="archiving" name="obfuscator" value="RetroGuard for J2ME"/>
+<property category="archiving" name="targetCompressed" value="1"/>
+<property category="archiving" name="targetPath" value="menetrend.jar"/>
+<property category="archiving" name="usingRules" value="1"/>
+<property category="archiving.micro" name="microEditionConfiguration" value="CLDC-1.1"/>
+<property category="archiving.micro" name="microEditionProfile" value="MIDP-2.0"/>
+<property category="archiving.micro" name="midlet-n-IconPath.1" value=""/>
+<property category="archiving.micro" name="midlet-n-MainClass.1" value="menetrend.MenetrendMain"/>
+<property category="archiving.micro" name="midlet-n-Name.1" value="MenetrendMain"/>
+<property category="archiving.micro" name="midletIgnoreClasses.1" value="menetrend.MenetrendMain"/>
+<property category="archiving.micro" name="midletName" value="Menetrend"/>
+<property category="archiving.micro" name="midletObfuscator" value="RetroGuard for J2ME"/>
+<property category="archiving.micro" name="midletVendor" value="Peter Kormos"/>
+<property category="archiving.micro" name="midletVersion" value="1.0"/>
+</node>
+</project>
